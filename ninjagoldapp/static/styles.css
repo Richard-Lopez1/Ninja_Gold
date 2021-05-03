@@ -1,0 +1,44 @@
+* {
+    font-family: 'Hermit', monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    padding: 2em;
+    background-color: #e0d313;
+}
+
+h1,h2,h3,h4,h5 {
+    color: black;
+}
+
+#forms > div {
+    width: 19%;
+    height: 8rem;
+    padding: 1em;
+    border: solid black 2px;
+} 
+
+#forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+#activities {
+    height: 12rem;
+    overflow-y: scroll;
+    border: solid;
+    padding: 1rem;
+}
+
+.earn {
+    color: green;
+}
+.lose {
+    color: red;
+}
+
